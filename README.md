@@ -63,20 +63,20 @@ Before running this project, ensure you have the following installed:
 3. **Environment Configuration**
    Create a `.env` file in the root directory with the following variables:
    ```
-   # MongoDB
-MONGO_URI=mongodb://localhost:27017/notification-service
-
-# Server Port
-PORT=3000
-
-# Twilio (SMS)
-TWILIO_SID=YOUR_TWILIO_SID
-TWILIO_AUTH_TOKEN=YOUR_TWILIO_AUTH_TOKEN
-TWILIO_PHONE=YOUR_TWILIO_PHONE_NUMBER
-
-# Gmail (Email)
-EMAIL_USER=your_email@example.com
-EMAIL_PASS=your_generated_app_password
+      # MongoDB
+      MONGO_URI=mongodb://localhost:27017/notification-service
+      
+      # Server Port
+      PORT=3000
+      
+      # Twilio (SMS)
+      TWILIO_SID=YOUR_TWILIO_SID
+      TWILIO_AUTH_TOKEN=YOUR_TWILIO_AUTH_TOKEN
+      TWILIO_PHONE=YOUR_TWILIO_PHONE_NUMBER
+      
+      # Gmail (Email)
+      EMAIL_USER=your_email@example.com
+      EMAIL_PASS=your_generated_app_password
 
    ```
 
